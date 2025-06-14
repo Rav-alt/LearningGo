@@ -1,0 +1,15 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	num := 13
+	word := "Claire"
+
+	//concatenate integer and string
+	output := fmt.Sprint(word, num)
+
+	fmt.Println(output)
+}
