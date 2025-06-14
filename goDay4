@@ -7,7 +7,9 @@ import (
 
 func main() {
 	input := "Claire"
-	output := strings.ToUpper(input)
+	upper := strings.ToUpper(input)
+	lower := strings.ToLower(input)
 	fmt.Println("Before: " + input)
-	fmt.Println("After: " + output)
+	fmt.Println("After: " + upper)
+	fmt.Println("Before: " + lower)
 }
