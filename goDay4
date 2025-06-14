@@ -1,0 +1,13 @@
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+	input := "Claire"
+	output := strings.ToUpper(input)
+	fmt.Println("Before: " + input)
+	fmt.Println("After: " + output)
+}
