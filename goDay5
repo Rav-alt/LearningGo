@@ -1,0 +1,15 @@
+package main
+
+import (
+	"fmt"
+
+	"golang.org/x/text/cases"
+	"golang.org/x/text/language"
+)
+
+func main() {
+	input := "I LOVE  CLAIRE"
+	output := cases.Title(language.English).String(input)
+	fmt.Println("Before: " + input)
+	fmt.Println("After: " + output)
+}
